@@ -21,7 +21,7 @@ if (resetBtn){
 
 if (increaseBtn){
     increaseBtn.addEventListener('click', () => {
-        count--;
+        count++;
         counterLabel.textContent = count;
     })
 }
